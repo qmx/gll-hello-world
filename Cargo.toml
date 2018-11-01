@@ -1,0 +1,8 @@
+[package]
+name = "gll-hello-world"
+version = "0.1.0"
+authors = ["Douglas Campos <qmx@qmx.me>"]
+
+[dependencies]
+gll = "0.0.2"
+gll-macros = "0.0.2"

@@ -1,0 +1,56 @@
+[[package]]
+name = "gll"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "indexing 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ordermap 0.3.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "proc-macro2 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gll-hello-world"
+version = "0.1.0"
+dependencies = [
+ "gll 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gll-macros 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gll-macros"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "gll 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "indexing"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "ordermap"
+version = "0.3.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "proc-macro2"
+version = "0.4.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "unicode-xid"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum gll 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "3ebe801e7da4e8a3fb6d2890406a82cc303bb81ba12260809d7fa0f23eedcea8"
+"checksum gll-macros 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "bafd08d498d06ff795f65ff2c3e279d81de7e5eea9ceb5460c45de9d3ff156f7"
+"checksum indexing 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "0b6b1b4b19a2928acf637b2f797829bf2c784c9a924ccad273c168f2ceb06aac"
+"checksum ordermap 0.3.5 (registry+https://github.com/rust-lang/crates.io-index)" = "a86ed3f5f244b372d6b1a00b72ef7f8876d0bc6a78a4c9985c53614041512063"
+"checksum proc-macro2 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" = "3d7b7eaaa90b4a90a932a9ea6666c95a389e424eff347f0f793979289429feee"
+"checksum unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "fc72304796d0818e357ead4e000d19c9c174ab23dc11093ac919054d20a6a7fc"
